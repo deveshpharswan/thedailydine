@@ -326,6 +326,11 @@ strong {
 }
 
 .section-testimonials{
+  
+  background-color: #f1ebe6;
+}
+
+.testimonials-container{
   padding: 9.6rem;
 }
 
@@ -349,4 +354,25 @@ strong {
 .testimonial-name{
   font-size:1.6rem;
   color: #777;
+}
+
+.gallery-item img{
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  padding : 1.6rem;
+}
+
+.gallery-item img:hover{
+  transform: scale(1.1);
+}
+
+.gallery-item{
+  overflow: hidden;
 }
